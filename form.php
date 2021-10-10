@@ -1,5 +1,5 @@
 <?php
-require_once '.gitignore/_connect.php';
+require_once '_connect.php';
 $pdo = new \PDO(DSN, USER, PASS);
 $data = array_map('trim', $_POST);
 $data = array_map('htmlentities', $data);

@@ -1,6 +1,6 @@
 <?php
 require_once 'form.php';
-require_once '.gitignore/_connect.php';
+require_once '_connect.php';
 ?>
 
 <!DOCTYPE html>
